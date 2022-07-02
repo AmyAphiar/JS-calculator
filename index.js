@@ -1,6 +1,6 @@
 
-const greeting = "Welcome to Simple Calculator";
-let req = "Which Operations would you like to Perform?";
+const greeting = "Welcome to Amy's Simple Calculator";
+let req = "What operation would you like to perform?";
 const brk = "  &#128512;"
 const operations = {
     "1": "Addition",
@@ -16,7 +16,7 @@ for (let op in operations) {
 
 }
 function performAgain() {
-   alert(`Thank you for using simple Calculator! \n\nWant's to do more calculations?\n\nRELOAD THE PAGE!!`)
+   alert(`Thank you for using Amy's Simple Calculator. \n\nWant to perform another calculation?\n\nRELOAD THIS PAGE!`)
     
 }
 
